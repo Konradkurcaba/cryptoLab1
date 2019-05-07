@@ -2,6 +2,10 @@ import java.util.List;
 
 public class BalanceChecker {
 
+    /**
+     * @param aFunctions
+     * Method counts number of 1 and 0
+     */
     public void checkBalance(List<String> aFunctions)
     {
         for(int i = 0;i<aFunctions.size();i++)

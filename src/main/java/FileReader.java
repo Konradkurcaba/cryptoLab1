@@ -14,7 +14,7 @@ public class FileReader {
 
         for(int i = 0;i<bytesFromFile.length;i++)
         {
-            if(i % 2 == 0)
+            if(i % 2 == 0) // bytes to bits
             {
                 readedFile.add(String.format("%8s",Integer.toBinaryString(bytesFromFile[i] & 0xFF )).replace(" ","0"));
             }

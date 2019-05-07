@@ -5,6 +5,11 @@ public class FunctionsCreator {
 
     private final static int NUMBER_OF_FUNCTIONS = 8;
 
+    /**
+     *
+     * @param aValuesFromFile raw bits from file
+     * @return List of functions
+     */
     public List<String> createFunctions(List<String> aValuesFromFile)
     {
         List<String> functions = new ArrayList<>();

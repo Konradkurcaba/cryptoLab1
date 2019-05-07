@@ -17,6 +17,13 @@ public class Main {
 
             BalanceChecker balanceChecker = new BalanceChecker();
             balanceChecker.checkBalance(functions);
+
+            NonlinearCalculator calculator = new NonlinearCalculator();
+            calculator.calcuate(functions);
+
+            SacCalculator sacCalculator = new SacCalculator();
+            sacCalculator.calculate(functions);
+
         }catch (Exception aEx)
         {
             System.out.println("Error during processing file");
